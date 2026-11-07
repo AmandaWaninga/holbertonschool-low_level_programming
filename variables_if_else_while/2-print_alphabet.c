@@ -9,7 +9,6 @@
 int main(void)
 {
 	char letters[27];
-	
 	int i;
 
 	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
