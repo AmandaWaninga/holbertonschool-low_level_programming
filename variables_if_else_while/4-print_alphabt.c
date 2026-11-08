@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
-	for (i = 0; letters[i] != '\0' && Letters[i] != 4 && Letter[i] != 16; i++)
+	for (i = 0; letters[i] != '\0' && letters[i] != 4 && letters[i] != 16; i++)
 	{
 	putchar(letters[i]);
 	}
