@@ -13,7 +13,7 @@ int main(void)
 	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
 	for (i = 0; letters[i] != '\0'; i++)
 	{
-		if (letters[i] != 4 || letters[i] != 16)
+		if (letters[i] != e || letters[i] != q)
 		{
 			putchar(letters[i]);
 		}
