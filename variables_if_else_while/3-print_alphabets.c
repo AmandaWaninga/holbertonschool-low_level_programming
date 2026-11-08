@@ -16,8 +16,7 @@ int main(void)
 for (i = 0; i < 26; i++)
 	{
 	putchar('A' + i);
-	putchar('\n');
 	}
-
+pitchar('\n');
 return (0);
 }
