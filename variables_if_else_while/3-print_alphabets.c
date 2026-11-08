@@ -17,6 +17,6 @@ for (i = 0; i < 26; i++)
 	{
 	putchar('A' + i);
 	}
-pitchar('\n');
+putchar('\n');
 return (0);
 }
