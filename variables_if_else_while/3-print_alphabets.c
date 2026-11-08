@@ -5,22 +5,15 @@
  * main - This program writes the Alphabet in lower case and then on upper case
  * Return: - Always 0 (Success)
  */
-
 int main(void)
 {
-	char letters[27];
 	int i;
 
-	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
-	for (i = 0; letters[i] != '\0'; i++)
-	{
-	putchar(letters[i]);
-	}
-	letters[i] = toupper(letters[i]);
-	for (i = 0; letters[i] != '\0'; i++)
-	{
-	putchar(letters[i]);
-	}
-putchar('\n');
+	for (i = 0; i < 26; i++)
+	putchar('a' + i);
+for (i = 0; i < 26; i++)
+	putchar('A' + i);
+	putchar('\n');
+
 return (0);
 }
