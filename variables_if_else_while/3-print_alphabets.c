@@ -12,16 +12,14 @@ int main(void)
 	int i;
 
 	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
-	putchar("%s", letters);
-
 	for (i = 0; letters[i] != '\0'; i++)
 	{
 	putchar("%s", letters);
 	}
+	letters[i] = toupper(letters[i]);
 	for (i = 0; letters[i] != '\0'; i++)
 	{
-	letters[i] = toupper(letters[i]);
-	putchar("%s", letters);
+	putchar(letters[i]);
 	}
 putchar('\n');
 return (0);
