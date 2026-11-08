@@ -14,7 +14,7 @@ int main(void)
 	strcpy(letters, "abcdefghijklmnopqrstuvwxyz");
 	for (i = 0; letters[i] != '\0'; i++)
 	{
-	putchar("%s", letters);
+	putchar(letters[i]);
 	}
 	letters[i] = toupper(letters[i]);
 	for (i = 0; letters[i] != '\0'; i++)
