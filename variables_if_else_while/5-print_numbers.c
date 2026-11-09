@@ -11,7 +11,7 @@ int main(void)
 	for (i = 0; i < 10 && i > 0; i++)
 	{
 		number = i;
-		printf(number\n);
+		printf(number)\n;
 	}
 return (0)
 }
