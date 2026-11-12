@@ -1,19 +1,25 @@
 #include <stdio.h>
-#include <stdio.h>
-
 /**
- * main - prints the lowercase alphabet in reverse
+ * main - this program prints combinations of two different digits
  *
- * Return: Always 0
+ * Returned: - Always 0 (Success)
  */
 int main(void)
 {
-	int letter;
+	int i, j;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(letter);
+		for (j = i + 1; j <= 9; j++)
+		{
+			putchar(i + '0');
+			putchar(j + '0');
+			if (i != 8 || j != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	return (0);
 	}
-putchar('\n');
-return (0);
 }
