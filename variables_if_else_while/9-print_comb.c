@@ -2,7 +2,7 @@
 /**
  * main - this program prints combinations of two different digits
  *
- * Returned: - Always 0 (Success)
+ *Return: - Always 0 (Success)
  */
 int main(void)
 {
@@ -20,6 +20,6 @@ int main(void)
 				putchar(' ');
 			}
 		}
-	return (0);
 	}
+	return (0);
 }
